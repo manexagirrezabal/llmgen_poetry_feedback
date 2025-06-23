@@ -1,4 +1,6 @@
-# llmgen_poetry_feedback
+# Refining Metrical Constraints in LLM-Generated Poetry with Feedback
+
+This is the repository for the ICCC'25 paper where we use LLMs to generate poetry and we guide this generation using feedback. In order to provide feedback, we use [Erato (Agirrezabal, Gonçalo Oliveira, and Ormazabal 2023)](https://github.com/manexagirrezabal/erato) or another LLM.
 
 ### The dataset
 
@@ -35,3 +37,13 @@ Create output directory
 Run the system to generate poems using feedback
 
 `python poem_generation_viafeedback.py`
+
+### Citation
+
+If you would like to cite this paper, please use this reference:
+
+Agirrezabal, Manex, and Hugo Gonçalo Oliveira. "Refining Metrical Constraints in LLM-Generated Poetry with Feedback", in Proceedings of the International Conference on Computational Creativity ICCC'25, Campinas, Brazil, 2025
+
+### References
+
+Agirrezabal, M., Gonçalo Oliveira, H., Ormazabal, A. (2023) Erato: Automatizing Poetry Evaluation, Proceedings of the Portuguese Conference on Artificial Intelligence (EPIA 2023)
